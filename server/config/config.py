@@ -96,6 +96,8 @@ CLOUD_FUNCTIONS = {
     "get_weather_forecast": os.getenv('FORECAST_FUNCTION_URL'),
     "get_next_appointment": os.getenv('CALENDAR_FUNCTION_URL'),
     "get_past_appointments": os.getenv('PAST_APPOINTMENTS_FUNCTION_URL'),
+    "get_calendar_entries": os.getenv('GET_CALENDAR_ENTRIES_FUNCTION_URL'),
+    "create_calendar_entry": os.getenv('CREATE_CALENDAR_ENTRY_FUNCTION_URL'),
 }
 
 # Validate Cloud Function URLs
@@ -140,4 +142,4 @@ CONFIG = {
         ]
     }],
     "system_instruction": SYSTEM_INSTRUCTIONS
-} 
+}

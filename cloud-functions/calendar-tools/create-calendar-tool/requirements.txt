@@ -1,0 +1,3 @@
+# Add any dependencies required by your create-calendar-tool, e.g.:
+# google-api-python-client
+# oauth2client
